@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "resources",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "resourceType", "order": "ASCENDING" },
+        { "fieldPath": "approved", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    }
+  ]
+}
